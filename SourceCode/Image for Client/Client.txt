@@ -1,0 +1,10 @@
+@ECHO OFF
+set INPUT=%1
+set INPUT2=%2
+CLS
+ECHO.
+ECHO %INPUT%
+ECHO %INPUT2%
+set path="C:\Program Files\Java\jdk1.8.0_25\bin";
+java ImageClient %INPUT% %INPUT2%
+pause. . .
